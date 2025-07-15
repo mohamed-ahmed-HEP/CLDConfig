@@ -25,8 +25,8 @@ VXDBarrelDigitiser.OutputLevel = WARNING
 VXDBarrelDigitiser.ProcessorType = "DDPlanarDigiProcessor"
 VXDBarrelDigitiser.Parameters = {
                                  "IsStrip": ["false"],
-                                 "ResolutionU": ["0.003", "0.003", "0.003", "0.003", "0.003", "0.003"],
-                                 "ResolutionV": ["0.003", "0.003", "0.003", "0.003", "0.003", "0.003"],
+                                 "ResolutionU": [str(x) for x in reco_args.VXDBarrelDigitiserResolutionU],
+                                 "ResolutionV": [str(x) for x in reco_args.VXDBarrelDigitiserResolutionV],
                                  "SimTrackHitCollectionName": ["VertexBarrelCollection"],
                                  "SimTrkHitRelCollection": ["VXDTrackerHitRelations"],
                                  "SubDetectorName": ["Vertex"],
@@ -38,8 +38,8 @@ VXDEndcapDigitiser.OutputLevel = WARNING
 VXDEndcapDigitiser.ProcessorType = "DDPlanarDigiProcessor"
 VXDEndcapDigitiser.Parameters = {
                                  "IsStrip": ["false"],
-                                 "ResolutionU": ["0.003", "0.003", "0.003", "0.003", "0.003", "0.003"],
-                                 "ResolutionV": ["0.003", "0.003", "0.003", "0.003", "0.003", "0.003"],
+                                 "ResolutionU": [str(x) for x in reco_args.VXDEndcapDigitiserResolutionU],
+                                 "ResolutionV": [str(x) for x in reco_args.VXDEndcapDigitiserResolutionV],
                                  "SimTrackHitCollectionName": ["VertexEndcapCollection"],
                                  "SimTrkHitRelCollection": ["VXDEndcapTrackerHitRelations"],
                                  "SubDetectorName": ["Vertex"],
