@@ -22,7 +22,8 @@ from Configurables import MarlinProcessorWrapper
 
 # geoservice comes from the `global_vars` of the SequenceLoader
 if any(small_vtx in geoservice.detectors[0] for small_vtx in ["_o2_", "_o3_", "_o4_"]):
-    CT_MAX_DIST = "0.05;"  # semi-colon is important!
+    CT_MAX_DIST = "0.05;"  # semi-colon is important! Original value
+    # CT_MAX_DIST = "0.07;"  # semi-colon is important! Value for ALICE3-like VTX only
 elif "_o1_" in  geoservice.detectors[0]:
     CT_MAX_DIST = "0.03;"  # semi-colon is important!
 else:

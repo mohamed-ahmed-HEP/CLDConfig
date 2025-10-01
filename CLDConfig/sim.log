@@ -1,0 +1,12 @@
+Data folder: /eos/user/a/ahmedmo/data_sim_fcc/CLD_o2_v07_CAD_model/
+Job number 1 out of 0 running now
+Job number 2 out of 0 running now
+mkdir: cannot create directory '/eos/user/a/ahmedmo/data_sim_fcc/CLD_o2_v07_CAD_model/CLD_o2_v07': File exists
+mkdir: cannot create directory '/eos/user/a/ahmedmo/data_sim_fcc/CLD_o2_v07_CAD_model/CLD_o2_v07/SIM/': File exists
+Job number 3 out of 0 running now
+mkdir: cannot create directory '/eos/user/a/ahmedmo/data_sim_fcc/CLD_o2_v07_CAD_model/CLD_o2_v07': File exists
+mkdir: cannot create directory '/eos/user/a/ahmedmo/data_sim_fcc/CLD_o2_v07_CAD_model/CLD_o2_v07/SIM/': File exists
+3 jobs left
+3 jobs left
+1 jobs left
+Done!
